@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JyfModel.h"
 
 @interface JyfTableViewCell : UITableViewCell
+
+@property (nonatomic, strong) JyfModel *model;
 
 @end

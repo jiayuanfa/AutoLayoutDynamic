@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000B38EA7F776570E3806DAF /* libPods-动态计算高度UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC17D630CCC2B935CC943ABF /* libPods-动态计算高度UITests.a */; };
+		0E2F82D534574AD19E6BA403 /* libPods-动态计算高度.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0C4E52261902764A0B3081 /* libPods-动态计算高度.a */; };
 		2E9064511E71917C00103F8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9064501E71917C00103F8E /* main.m */; };
 		2E9064541E71917C00103F8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9064531E71917C00103F8E /* AppDelegate.m */; };
 		2E9064571E71917C00103F8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9064561E71917C00103F8E /* ViewController.m */; };
@@ -15,6 +17,11 @@
 		2E90645F1E71917C00103F8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E90645D1E71917C00103F8E /* LaunchScreen.storyboard */; };
 		2E90646A1E71917C00103F8E /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9064691E71917C00103F8E /* ______Tests.m */; };
 		2E9064751E71917C00103F8E /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9064741E71917C00103F8E /* ______UITests.m */; };
+		2E9064841E7192A400103F8E /* JyfTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9064831E7192A400103F8E /* JyfTableViewCell.m */; };
+		2E9064871E7192F500103F8E /* JyfModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9064861E7192F500103F8E /* JyfModel.m */; };
+		2E90648A1E759E1C00103F8E /* NSString+JyfCacluate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9064891E759E1B00103F8E /* NSString+JyfCacluate.m */; };
+		2E90648C1E75A3DE00103F8E /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 2E90648B1E75A3DE00103F8E /* Images */; };
+		E3F17FFB6EEC160450B454B2 /* libPods-动态计算高度Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 128DC5D71A0EC990ECAA770C /* libPods-动态计算高度Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		128DC5D71A0EC990ECAA770C /* libPods-动态计算高度Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-动态计算高度Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E90644C1E71917C00103F8E /* 动态计算高度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动态计算高度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9064501E71917C00103F8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E9064521E71917C00103F8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,21 @@
 		2E9064701E71917C00103F8E /* 动态计算高度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "动态计算高度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9064741E71917C00103F8E /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		2E9064761E71917C00103F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E9064821E7192A400103F8E /* JyfTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyfTableViewCell.h; sourceTree = "<group>"; };
+		2E9064831E7192A400103F8E /* JyfTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyfTableViewCell.m; sourceTree = "<group>"; };
+		2E9064851E7192F500103F8E /* JyfModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyfModel.h; sourceTree = "<group>"; };
+		2E9064861E7192F500103F8E /* JyfModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyfModel.m; sourceTree = "<group>"; };
+		2E9064881E759E1B00103F8E /* NSString+JyfCacluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JyfCacluate.h"; sourceTree = "<group>"; };
+		2E9064891E759E1B00103F8E /* NSString+JyfCacluate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JyfCacluate.m"; sourceTree = "<group>"; };
+		2E90648B1E75A3DE00103F8E /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		3B0EF442B5EEDA30A9A62A77 /* Pods-动态计算高度.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-动态计算高度.debug.xcconfig"; path = "Pods/Target Support Files/Pods-动态计算高度/Pods-动态计算高度.debug.xcconfig"; sourceTree = "<group>"; };
+		5D0C4E52261902764A0B3081 /* libPods-动态计算高度.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-动态计算高度.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAE83DF653DA99FE6A97051 /* Pods-动态计算高度Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-动态计算高度Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-动态计算高度Tests/Pods-动态计算高度Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C602541CC38C3A02679B564E /* Pods-动态计算高度UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-动态计算高度UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-动态计算高度UITests/Pods-动态计算高度UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC17D630CCC2B935CC943ABF /* libPods-动态计算高度UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-动态计算高度UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71A1994C73002E4FC9CF71D /* Pods-动态计算高度UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-动态计算高度UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-动态计算高度UITests/Pods-动态计算高度UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F05EB2AAD8C69009F8596B0C /* Pods-动态计算高度Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-动态计算高度Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-动态计算高度Tests/Pods-动态计算高度Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F73C8C4187D48960559DDE14 /* Pods-动态计算高度.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-动态计算高度.release.xcconfig"; path = "Pods/Target Support Files/Pods-动态计算高度/Pods-动态计算高度.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2F82D534574AD19E6BA403 /* libPods-动态计算高度.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F17FFB6EEC160450B454B2 /* libPods-动态计算高度Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000B38EA7F776570E3806DAF /* libPods-动态计算高度UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +111,8 @@
 				2E9064681E71917C00103F8E /* 动态计算高度Tests */,
 				2E9064731E71917C00103F8E /* 动态计算高度UITests */,
 				2E90644D1E71917C00103F8E /* Products */,
+				8F18B9BCDE04256E0B54BCEB /* Pods */,
+				E44B6CE777CB5BD82B339D50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +129,17 @@
 		2E90644E1E71917C00103F8E /* 动态计算高度 */ = {
 			isa = PBXGroup;
 			children = (
+				2E90648B1E75A3DE00103F8E /* Images */,
 				2E9064521E71917C00103F8E /* AppDelegate.h */,
 				2E9064531E71917C00103F8E /* AppDelegate.m */,
 				2E9064551E71917C00103F8E /* ViewController.h */,
 				2E9064561E71917C00103F8E /* ViewController.m */,
+				2E9064881E759E1B00103F8E /* NSString+JyfCacluate.h */,
+				2E9064891E759E1B00103F8E /* NSString+JyfCacluate.m */,
+				2E9064851E7192F500103F8E /* JyfModel.h */,
+				2E9064861E7192F500103F8E /* JyfModel.m */,
+				2E9064821E7192A400103F8E /* JyfTableViewCell.h */,
+				2E9064831E7192A400103F8E /* JyfTableViewCell.m */,
 				2E9064581E71917C00103F8E /* Main.storyboard */,
 				2E90645B1E71917C00103F8E /* Assets.xcassets */,
 				2E90645D1E71917C00103F8E /* LaunchScreen.storyboard */,
@@ -140,6 +175,29 @@
 			path = "动态计算高度UITests";
 			sourceTree = "<group>";
 		};
+		8F18B9BCDE04256E0B54BCEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B0EF442B5EEDA30A9A62A77 /* Pods-动态计算高度.debug.xcconfig */,
+				F73C8C4187D48960559DDE14 /* Pods-动态计算高度.release.xcconfig */,
+				F05EB2AAD8C69009F8596B0C /* Pods-动态计算高度Tests.debug.xcconfig */,
+				9EAE83DF653DA99FE6A97051 /* Pods-动态计算高度Tests.release.xcconfig */,
+				C602541CC38C3A02679B564E /* Pods-动态计算高度UITests.debug.xcconfig */,
+				D71A1994C73002E4FC9CF71D /* Pods-动态计算高度UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E44B6CE777CB5BD82B339D50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C4E52261902764A0B3081 /* libPods-动态计算高度.a */,
+				128DC5D71A0EC990ECAA770C /* libPods-动态计算高度Tests.a */,
+				CC17D630CCC2B935CC943ABF /* libPods-动态计算高度UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E9064791E71917C00103F8E /* Build configuration list for PBXNativeTarget "动态计算高度" */;
 			buildPhases = (
+				D97E9B98ADA452A91A9A9077 /* [CP] Check Pods Manifest.lock */,
 				2E9064481E71917C00103F8E /* Sources */,
 				2E9064491E71917C00103F8E /* Frameworks */,
 				2E90644A1E71917C00103F8E /* Resources */,
+				1F8836E369D7C0403A7155A2 /* [CP] Embed Pods Frameworks */,
+				1576980BC6ADBB9EDC3F1126 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E90647C1E71917C00103F8E /* Build configuration list for PBXNativeTarget "动态计算高度Tests" */;
 			buildPhases = (
+				A11204EF1B0700A6DC03EB31 /* [CP] Check Pods Manifest.lock */,
 				2E9064611E71917C00103F8E /* Sources */,
 				2E9064621E71917C00103F8E /* Frameworks */,
 				2E9064631E71917C00103F8E /* Resources */,
+				C27D7B15ABD49D679C9ADBFE /* [CP] Embed Pods Frameworks */,
+				1EC08DA2D9AA106D3D5EDF8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E90647F1E71917C00103F8E /* Build configuration list for PBXNativeTarget "动态计算高度UITests" */;
 			buildPhases = (
+				A072F45EEA5BC76B5B4CF4E8 /* [CP] Check Pods Manifest.lock */,
 				2E90646C1E71917C00103F8E /* Sources */,
 				2E90646D1E71917C00103F8E /* Frameworks */,
 				2E90646E1E71917C00103F8E /* Resources */,
+				DD98EC3C19E5C35C3DF66502 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E90648C1E75A3DE00103F8E /* Images in Resources */,
 				2E90645F1E71917C00103F8E /* LaunchScreen.storyboard in Resources */,
 				2E90645C1E71917C00103F8E /* Assets.xcassets in Resources */,
 				2E90645A1E71917C00103F8E /* Main.storyboard in Resources */,
@@ -268,14 +335,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1576980BC6ADBB9EDC3F1126 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-动态计算高度/Pods-动态计算高度-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EC08DA2D9AA106D3D5EDF8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-动态计算高度Tests/Pods-动态计算高度Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F8836E369D7C0403A7155A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-动态计算高度/Pods-动态计算高度-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A072F45EEA5BC76B5B4CF4E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A11204EF1B0700A6DC03EB31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C27D7B15ABD49D679C9ADBFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-动态计算高度Tests/Pods-动态计算高度Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D97E9B98ADA452A91A9A9077 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD98EC3C19E5C35C3DF66502 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-动态计算高度UITests/Pods-动态计算高度UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E9064481E71917C00103F8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2E9064571E71917C00103F8E /* ViewController.m in Sources */,
+				2E9064841E7192A400103F8E /* JyfTableViewCell.m in Sources */,
 				2E9064541E71917C00103F8E /* AppDelegate.m in Sources */,
+				2E9064871E7192F500103F8E /* JyfModel.m in Sources */,
 				2E9064511E71917C00103F8E /* main.m in Sources */,
+				2E90648A1E759E1C00103F8E /* NSString+JyfCacluate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +613,7 @@
 		};
 		2E90647A1E71917C00103F8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B0EF442B5EEDA30A9A62A77 /* Pods-动态计算高度.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "动态计算高度/Info.plist";
@@ -431,6 +625,7 @@
 		};
 		2E90647B1E71917C00103F8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73C8C4187D48960559DDE14 /* Pods-动态计算高度.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "动态计算高度/Info.plist";
@@ -442,6 +637,7 @@
 		};
 		2E90647D1E71917C00103F8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05EB2AAD8C69009F8596B0C /* Pods-动态计算高度Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "动态计算高度Tests/Info.plist";
@@ -454,6 +650,7 @@
 		};
 		2E90647E1E71917C00103F8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EAE83DF653DA99FE6A97051 /* Pods-动态计算高度Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "动态计算高度Tests/Info.plist";
@@ -466,6 +663,7 @@
 		};
 		2E9064801E71917C00103F8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C602541CC38C3A02679B564E /* Pods-动态计算高度UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "动态计算高度UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -477,6 +675,7 @@
 		};
 		2E9064811E71917C00103F8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71A1994C73002E4FC9CF71D /* Pods-动态计算高度UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "动态计算高度UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -505,6 +704,7 @@
 				2E90647B1E71917C00103F8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E90647C1E71917C00103F8E /* Build configuration list for PBXNativeTarget "动态计算高度Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +713,7 @@
 				2E90647E1E71917C00103F8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E90647F1E71917C00103F8E /* Build configuration list for PBXNativeTarget "动态计算高度UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +722,7 @@
 				2E9064811E71917C00103F8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

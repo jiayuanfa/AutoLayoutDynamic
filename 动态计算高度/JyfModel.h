@@ -10,4 +10,8 @@
 
 @interface JyfModel : NSObject
 
+@property (nonatomic, copy) NSString *contentText;
+
+@property (nonatomic, strong) NSArray *imageArray;
+
 @end
